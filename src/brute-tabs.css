@@ -1,0 +1,49 @@
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.brute-tabs-buttons,
+.brute-tabs-panes {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.brute-tabs-panes {
+	clear: both;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.brute-tabs-panes > div {
+	display: none;
+}
+
+.brute-tabs-buttons > li {
+	float: left;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+	color: #666;
+	margin: 0 5px 0 0;
+	padding: 4px 10px;
+	top: 1px;
+	border: 1px solid #eee;
+	border-bottom-color: #ccc;
+	border-radius: 5px 5px 0 0;
+	background: #fff;
+	vertical-align: middle;
+}
+
+.brute-tabs-buttons > li:hover,
+.brute-tabs-buttons > li.brute-tabs-active {
+	border-color: #ccc;
+	border-bottom: 1px solid #fff;
+}
+
+.brute-tabs-buttons > li.brute-tabs-active {
+	cursor: default;
+	color: #333;
+}

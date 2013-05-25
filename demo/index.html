@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brute Tabs Demo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../dist/brute-tabs.css">
+	<script src="../libs/jquery/jquery.js"></script>
+	<script src="../dist/brute-tabs.js"></script>
+
+	<!-- Demo-only styles -->
+	<style>	body { padding: 20px; }</style>
+</head>
+<body>
+	<h1>Brute Tabs Demo</h1>
+	<div id="demo" class="brute-tabs">
+		<ul class="brute-tabs-buttons">
+			<li>One</li>
+			<li>Two</li>
+			<li>Three</li>
+		</ul>
+		<div class="brute-tabs-panes">
+			<div>Content for first tab</div>
+			<div>Content for second tab</div>
+			<div>Content for third tab</div>
+		</div>
+	</div>
+	<script>
+		$('#demo').bruteTabs({
+			showPane: 'slideDown',
+			hidePane: 'slideUp',
+			initialTab: 1
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "brute-tabs",
+  "title": "Brute Tabs",
+  "description": "Minimal but easily extendible jquery tabs plugin.",
+  "version": "0.9.0",
+  "homepage": "http://grassator.github.com/jquery-brute-tabs/",
+  "docs": "http://grassator.github.com/jquery-brute-tabs/",
+  "demo": "http://grassator.github.com/jquery-brute-tabs/",
+  "download": "https://github.com/grassator/jquery-brute-tabs/archive/master.zip",
+  "author": {
+    "name": "Dmitriy Kubyshkin",
+    "email": "dmitriy@kubyshkin.ru",
+    "url": "http://kubyshkin.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/grassator/jquery-brute-tabs.git"
+  },
+  "bugs": "https://github.com/grassator/jquery-brute-tabs/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/grassator/jquery-brute-tabs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.7.1"
+  },
+  "keywords": ["jquery", "ui", "tabs"]
+}
